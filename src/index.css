@@ -1,5 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+:root {
+    --primary-color: #3F51B5;
+    --primary-light: #757DE8;
+    --primary-dark: #002984;
+
+    --secondary-color: #FF5722;
+    --secondary-light: #FF8A50;
+    --secondary-dark: #C41C00;
+
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #000000;
 }
