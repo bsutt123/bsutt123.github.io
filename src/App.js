@@ -2,17 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Title from  './components/Title';
+import Hero from  './components/Hero';
 import AboutMe from './components/AboutMe';
-import CompletedProjects from './components/CompletedProjects'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Title />
+        <Hero />
         <AboutMe />
-        <CompletedProjects />
       </div>
     );
   }
