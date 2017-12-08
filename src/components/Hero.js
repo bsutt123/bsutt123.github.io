@@ -6,7 +6,7 @@ import webDev from '../img/dev-typing.jpg';
 class Hero extends Component {
     render() {
         return (
-            <div className="hero u-margin-bot-lg">
+            <div className="hero u-margin-bot-lg container-fluid">
                 <img className="hero__img hero__img--top" src={engineer} alt="engineering" />
                 <img className="hero__img hero__img--bot" src={webDev} alt="computer" />
                 <div className="hero__title">

@@ -1,0 +1,10 @@
+.skewer {
+    width: 100vw;
+    padding: 10rem;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    transform: skewY(-7deg); 
+      
+    & > * {
+        transform: skewY(7deg);
+    }
+}

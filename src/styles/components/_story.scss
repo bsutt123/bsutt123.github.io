@@ -1,15 +1,16 @@
 $story-image-size: 20rem;
 .story {
-    padding: 0 5rem;
+
+
     &__shape{
-        background-color: orangered;
+        float:left;
         width: $story-image-size;
         height: $story-image-size;
-        float: left;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+
     }
 
     &__img {
@@ -17,8 +18,8 @@ $story-image-size: 20rem;
     }
 
     &__text {
-        float: left;
-        width: 75%;
+        font-size: 1.6rem;
     }
+
 
 }
