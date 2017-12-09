@@ -1,9 +1,16 @@
 $story-image-size: 20rem;
 .story {
 
-
+    min-height: $story-image-size;
+    &:not(:last-child) {
+        margin-bottom: 6rem;
+    }
     &__shape{
         float:left;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
         width: $story-image-size;
         height: $story-image-size;
         -webkit-shape-outside: circle(50% at 50% 50%);

@@ -14,7 +14,7 @@ import rails from '../img/rails.png';
 import sql from '../img/sql.png';
 import bootstrap from '../img/bootstrap.png';
 
-class SkillsList extends Component {
+class SkillsList extends Component {pm
     constructor(props) {
         super(props);
         this.state = {
@@ -54,8 +54,15 @@ class SkillsList extends Component {
 
     render() {
         return (
-            <div className="skewer">
+            <div className="skewer u-padding-top-lg">
                 <div className="container">
+                    <div className="row justify-content-center u-margin-bot-sm">
+                        <h2 className="heading-secondary u-color-white"> Developed Skills  </h2>
+                    </div>
+                    <div className="row justify-content-center u-margin-bot-md">
+                        <h3 className="heading-tertiary u-color-white"> Click on a Icon to read more about it </h3>
+                    </div>
+                    
                     <div className="row">
                         {
                             Object.entries(skillsData).map((keyValue,index) => {
@@ -65,7 +72,9 @@ class SkillsList extends Component {
                                             name={keyValue[0]} 
                                             image={this.convertToImage(keyValue[0])}
                                             clicked={this.elementIsClicked(keyValue[0])}
-                                            handleClick={this.changeElement.bind(this, keyValue[0])}  />)
+                                            handleClick={this.changeElement.bind(this, keyValue[0])}
+                                        />
+                                    )
                             })
                         }
                     </div>

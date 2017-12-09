@@ -1,0 +1,26 @@
+.blog {
+
+    &__heading {
+
+        &--primary {
+
+        }
+
+        &--secondary {
+            margin: 0 auto;
+            text-align: center;
+            width:70%;
+        }   
+    }
+
+    &__post {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    &__img {
+        width: 100%;
+    }
+
+}

@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-
-
-
+import {Link} from 'react-router-dom';
 
 
 class FixedNav extends Component {
@@ -42,11 +40,12 @@ class FixedNav extends Component {
                 </div>
                 <nav className={"nav-list nav-list--"+this.addClicked()}>
                     <ul>
-                        <li><a className="btn btn--white"> I'm a list item! </a></li>
-                        <li><a className="btn btn--white"> I'm a list item! </a></li>
-                        <li><a className="btn btn--white"> I'm a list item! </a></li>
-                        <li><a className="btn btn--white"> I'm a list item! </a></li>
-                        <li><a className="btn btn--white"> I'm a list item! </a></li>
+                        <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/"> Main Page </Link></li>
+                        <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/about-me"> About Me</Link></li>
+                        <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/skills"> Skills </Link></li>
+                        <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/case-studies"> Case Studies </Link></li>
+                        <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/projects"> Projects </Link></li>
+                        <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/blog"> Blog </Link></li>
                     </ul>
                 
                 </nav>

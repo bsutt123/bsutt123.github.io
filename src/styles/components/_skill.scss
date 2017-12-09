@@ -1,4 +1,12 @@
 $skill-size: 25rem;
+.skills {
+    &__title {
+        color: $color-white;
+        font-size: 6rem;
+        font-weight: 300;
+    }
+}
+
 
 .skill {
     position: relative;
