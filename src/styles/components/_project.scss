@@ -1,0 +1,40 @@
+.project {
+    text-align: center;
+    transition: all 1s;
+
+    &--hide {
+        opacity: 0;
+        transform: scale(.01);
+    }
+
+    &__featured {
+        transition: all 1s;
+        position: absolute;
+
+        &--show {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        &--hide {
+            opacity: 0;
+            transform: scale(.01);
+        }
+    }
+
+    &--show {
+        opacity: 1;
+    }
+
+    &__content {
+        width: 100%;
+    }
+
+    &__img {
+        width:75%;
+    }
+
+    &__description {
+        font-size: 1.6rem;
+    }
+}

@@ -65,14 +65,14 @@ class SkillsList extends Component {pm
                     
                     <div className="row">
                         {
-                            Object.entries(skillsData).map((keyValue,index) => {
+                            Object.entries(skillsData).map(([key, value],index) => {
                                 return (<Skill 
                                             key={index} 
-                                            content={keyValue[1]} 
-                                            name={keyValue[0]} 
-                                            image={this.convertToImage(keyValue[0])}
-                                            clicked={this.elementIsClicked(keyValue[0])}
-                                            handleClick={this.changeElement.bind(this, keyValue[0])}
+                                            content={value} 
+                                            name={key} 
+                                            image={this.convertToImage(key)}
+                                            clicked={this.elementIsClicked(key)}
+                                            handleClick={this.changeElement.bind(this, key)}
                                         />
                                     )
                             })

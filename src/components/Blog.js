@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 
 
-import bootstrap from '../img/bootstrap.png'
+
+import bootstrap from '../img/bootstrap.png';
 
 class Blog extends Component {
     render() {
@@ -21,7 +22,6 @@ class Blog extends Component {
                                 <img className="blog__img" src={bootstrap} alt="bootstrap" />
                             </a>
                         </div>
-                    
                     </div>      
                 </div>
             </div>

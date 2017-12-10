@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+import FaClose from 'react-icons/lib/fa/close';
+import FaBars from 'react-icons/lib/fa/bars';
+
 
 class FixedNav extends Component {
     constructor(props) {
@@ -28,10 +31,12 @@ class FixedNav extends Component {
                     <div 
                     onClick={this.handleClick.bind(this)} 
                     className={"fixed-nav__side fixed-nav__side--front--"+this.addClicked()}> 
+                        <FaBars className="fixed-nav__icon"/>
                     </div>
                     <div 
                     onClick={this.handleClick.bind(this)} 
                     className={"fixed-nav__side fixed-nav__side--back--"+this.addClicked()}> 
+                        <FaClose className="fixed-nav__icon"/> 
                     </div>
                     <div 
                     className={"fixed-nav__background fixed-nav__background--"+this.addClicked()}>
