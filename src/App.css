@@ -1503,18 +1503,24 @@ body {
     .project__img--backdrop {
       background: rgba(0, 0, 0, 0.75); }
   .project__list {
-    list-style: none;
-    text-align: left;
-    font-size: 1.6rem;
-    margin-bottom: 1rem; }
+    list-style: none; }
     .project__list--item {
       text-align: left;
       font-size: 1.6rem;
       margin-bottom: 1rem; }
       .project__list--item:last-child {
         margin-bottom: 5rem; }
-    .project__list:last-child {
-      margin-bottom: 5rem; }
+  .project__github {
+    list-style: none;
+    padding: auto;
+    text-align: center; }
+    .project__github--item {
+      display: inline-block;
+      font-size: 1.6rem;
+      margin: 0 1rem;
+      margin-bottom: 1rem; }
+      .project__github--item:last-child {
+        margin-bottom: 5rem; }
 
 .hero {
   position: relative;

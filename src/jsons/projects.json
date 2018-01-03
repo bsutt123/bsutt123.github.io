@@ -9,27 +9,63 @@
         ],
         "heading": "Chatty",
         "github": [
-            "https://github.com/bsutt123/chatty-react",
-            "https://github.com/bsutt123/chatty-angular",
-            "https://github.com/bsutt123/chatty-angular-js"
+            {
+                "link":"https://github.com/bsutt123/chatty-react",
+                "title": "Chatty React"
+            },
+            {
+                "link":"https://github.com/bsutt123/chatty-angular",
+                "title": "Chatty Angular"
+            },
+            {
+                "link":"https://github.com/bsutt123/chatty-angular-js",
+                "title": "Chatty Angular JS"
+            }
         ],
         "deployed": {
-            "link": "name of link",
-            "title": "title"
+            "link": "https://bloc-chat-react-c196e.firebaseapp.com",
+            "title": "Deployment of React Version"
         }
     },
     "blocipedia": {
-        "description": "Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nisi scelerisque eu ultrices vitae auctor eu augue. Purus ut faucibus pulvinar elementum. Proin sagittis nisl rhoncus mattis rhoncus urna. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nibh mauris cursus mattis molestie. Tristique magna sit amet purus. Scelerisque purus semper eget duis at. Donec et odio pellentesque diam. Porttitor eget dolor morbi non arcu risus quis.",
-        "motivation": [
-            "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut."
+        "description": [
+            "Crust is a Wikipedia inspired app developed for people who love bread and want to share their knowledge with others. Its built using Ruby on Rails to maintain and store information, and uses a number of Ruby Gems to assist with the management of the application. The Application uses Devise to manage users, Stripe to accept payments, and RedCarpet to render the markdown to the wikipedia page. "
         ],
-        "heading": "Blocipedia",
-        "github": ["link1","link2","link3"]
+        "motivation": [
+            "Crust was my first real Ruby on Rails application, and I wanted to do something that would help solidify more of the data management and modeling with Rails is so well known for. I had the chance to get my feet wet with some of the most used Ruby gems like Devise and Stripe; I also had the chance to make some simpler database joins like has_many :through and belongs_to."
+        ],
+        "heading": "Crust",
+        "github": [
+            {
+                "link":"https://github.com/bsutt123/crust-app",
+                "title": "Crust on Github"
+            }
+        ],
+        "deployed": {
+            "link": "https://bloc-chat-react-c196e.firebaseapp.com",
+            "title": "Deployment of React Version"
+        }
     },
     "enfPortal": {
-        "description": "Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nisi scelerisque eu ultrices vitae auctor eu augue. Purus ut faucibus pulvinar elementum. Proin sagittis nisl rhoncus mattis rhoncus urna. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nibh mauris cursus mattis molestie. Tristique magna sit amet purus. Scelerisque purus semper eget duis at. Donec et odio pellentesque diam. Porttitor eget dolor morbi non arcu risus quis.",
-        "motivation": "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut.",
+        "description": [
+            "ENF Portal is a Ruby on Rails Web Application built to help with the management of classes, campers, staff and trips at the summer camp Eagles Nest Camp. It was designed to be used by the Administrators and the Counselors at the camp to let them use a web interface to perform much of the scheduling that is current done by hand.",
+            "If you are on the deployed version and want to move around the site login with 'bsutt123@gmail.com' and 'password' to have admin access. The site was designed so that only specific people would be able to sign up to limit the users to only Counselors and Administrators"
+        ],
+        "motivation": [
+            "I worked at Eagles Nest Camp for many summers, and as the Canoeing Instructor Head I was in charge of planning and leading all canoeing trips for the summer. The camp used an old carbon copy system for class management and trip requests that worked well, but required substantial labor hours to make sure that everything was in order and the trips were going to be successful",
+            "I was hoping to make something that would let fewer people manage the camp more effectively by centralizing the information and analyzing the data on the fly to provide suggestions and to highlight possible issues that would arise from trip complications. There are hundreds of little details that go into planning a trip off campus, such as will there be enough counselors in the cabin, who is on their day off, is the camper allergic to anything, etc...",
+            "This is my largest project, and in order to properly model the camps activities I had to make many intricately connected models to track and store information. The project also includes many complex forms to go with the nineteen different models, and the controllers for each model helps guide the form by eliminating results that do not fit the criteria for the form. There a lot of really cool interactions that you can explore on github."
+        ],
         "heading": "ENF Portal",
-        "github": ["link1","link2","link3"]
+        "github": [
+            {
+                "link":"https://github.com/bsutt123/enf-portal",
+                "title": "ENF Portal on Github"
+            }
+        ],
+        "deployed": {
+            "link": "https://radiant-plateau-85733.herokuapp.com",
+            "title": "Deployment on Heroku"
+        }
     }
 }

@@ -59,13 +59,21 @@
                 margin-bottom: $margin-medium;
             }
         }
-        text-align: left;
-        font-size: 1.6rem;
-        margin-bottom: $margin-tiny;
-        &:last-child {
-            margin-bottom: $margin-medium;
-        }
+    }
 
-        
+    &__github {
+        list-style: none;
+        padding: auto;
+        text-align: center;
+
+        &--item {
+            display: inline-block;
+            font-size: 1.6rem;
+            margin: 0 1rem;
+            margin-bottom: $margin-tiny;
+            &:last-child {
+                margin-bottom: $margin-medium;
+            }
+        }
     }
 }

@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 
 import Story from './Story';
 
-import bradyPhoto from '../img/brady-1.jpg';
 import chipotle from '../img/chipotle.png';
 import spacex from '../img/spacex.jpg';
 import spacex2 from '../img/spacex_2.jpg';
