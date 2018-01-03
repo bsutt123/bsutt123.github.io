@@ -1,12 +1,19 @@
 import React, {Component} from 'react';
 
 class Story extends Component {
+    setFill() {
+        if (this.props.height) {
+            return "--height"
+        } else {
+            return "--width"
+        }
+    }
     render() {
         return (
             <div className="row story">
                 <div className="col-lg-4 col-md-5">
                     <figure className="story__shape">
-                        <img className="story__img" src={this.props.image} alt="Brady Sutton" />
+                        <img className={"story__img"+this.setFill()} src={this.props.image} alt="Brady Sutton" />
                     </figure>
                 </div>
                 <div className="col-lg-7 col-md-6">

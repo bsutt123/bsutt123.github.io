@@ -1,13 +1,28 @@
 {
     "chatty": {
-        "description": "Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nisi scelerisque eu ultrices vitae auctor eu augue. Purus ut faucibus pulvinar elementum. Proin sagittis nisl rhoncus mattis rhoncus urna. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nibh mauris cursus mattis molestie. Tristique magna sit amet purus. Scelerisque purus semper eget duis at. Donec et odio pellentesque diam. Porttitor eget dolor morbi non arcu risus quis.",
-        "motivation": "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut.",
+        "description": [
+            "Chatty is a simple chatting service that was used as the basis to build a Single Page Application using Angular, Angular JS, and React. While each version is slighty different, they all have the same essential functionality including sign ins, creating rooms, making posts. etc."
+        ],
+        "motivation": [
+            "Chat services are a great first application to build because they require a more dynamic control of the information that a static web page. The application needs to be able to read information from a database (in this case, firebase was used), let users log in, dynamically update rooms names, and overall track the state of the application.",
+            "For this application, my real goal was to get first hand experience with how the largest frameworks are unique using an application that has similar end implementation. It was very helpful to get to see the strengths and weaknesses of each framework, and the chance to use each to build an application was exciting in itself. Using the three different frameworks as a learning experience was my main goal when implementing chatty."
+        ],
         "heading": "Chatty",
-        "github": ["link1","link2","link3"]
+        "github": [
+            "https://github.com/bsutt123/chatty-react",
+            "https://github.com/bsutt123/chatty-angular",
+            "https://github.com/bsutt123/chatty-angular-js"
+        ],
+        "deployed": {
+            "link": "name of link",
+            "title": "title"
+        }
     },
     "blocipedia": {
         "description": "Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nisi scelerisque eu ultrices vitae auctor eu augue. Purus ut faucibus pulvinar elementum. Proin sagittis nisl rhoncus mattis rhoncus urna. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nibh mauris cursus mattis molestie. Tristique magna sit amet purus. Scelerisque purus semper eget duis at. Donec et odio pellentesque diam. Porttitor eget dolor morbi non arcu risus quis.",
-        "motivation": "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut.",
+        "motivation": [
+            "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut."
+        ],
         "heading": "Blocipedia",
         "github": ["link1","link2","link3"]
     },
@@ -15,12 +30,6 @@
         "description": "Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nisi scelerisque eu ultrices vitae auctor eu augue. Purus ut faucibus pulvinar elementum. Proin sagittis nisl rhoncus mattis rhoncus urna. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nibh mauris cursus mattis molestie. Tristique magna sit amet purus. Scelerisque purus semper eget duis at. Donec et odio pellentesque diam. Porttitor eget dolor morbi non arcu risus quis.",
         "motivation": "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut.",
         "heading": "ENF Portal",
-        "github": ["link1","link2","link3"]
-    },
-    "blocmetrics": {
-        "description": "Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Nisi scelerisque eu ultrices vitae auctor eu augue. Purus ut faucibus pulvinar elementum. Proin sagittis nisl rhoncus mattis rhoncus urna. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nibh mauris cursus mattis molestie. Tristique magna sit amet purus. Scelerisque purus semper eget duis at. Donec et odio pellentesque diam. Porttitor eget dolor morbi non arcu risus quis.",
-        "motivation": "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nam libero justo laoreet sit amet cursus sit amet dictum. Enim ut sem viverra aliquet eget. Arcu non odio euismod lacinia at quis risus sed vulputate. Sapien eget mi proin sed libero. Donec ultrices tincidunt arcu non sodales. Velit egestas dui id ornare arcu. Luctus accumsan tortor posuere ac ut consequat semper viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Ac orci phasellus egestas tellus rutrum. Nulla aliquet enim tortor at. Sed velit dignissim sodales ut.",
-        "heading": "Blocmetrics",
         "github": ["link1","link2","link3"]
     }
 }

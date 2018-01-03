@@ -43,6 +43,7 @@ class Projects extends Component {
     }
 
     removeFeatured() {
+        console.log("I'm in remove featured")
         this.setState({featuredProject: null});
     }
     addClassName(key) {
@@ -71,9 +72,8 @@ class Projects extends Component {
                 </div>
                 <div className="row u-position-relative">
                     <div 
-                    onClick={this.removeFeatured.bind(this)}
                     className={"project__featured project__featured--"+this.addFeaturedClassName()}>
-                        <FeaturedProject image={this.state.featuredProjectImage} data={this.state.featuredProjectData} />
+                        <FeaturedProject unsetFeatured={this.removeFeatured.bind(this)} image={this.state.featuredProjectImage} data={this.state.featuredProjectData} />
                     </div>
                     {
                         Object.entries(projectsData).map(([key,value], index)=> {

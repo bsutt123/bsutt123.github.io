@@ -1355,13 +1355,14 @@ body {
     shape-outside: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%); }
-  .story__img {
+  .story__img--height {
+    height: 100%; }
+  .story__img--width {
     width: 100%; }
   .story__text {
     font-size: 1.6rem; }
 
 .skills__title {
-  color: #F0F0F0;
   font-size: 6rem;
   font-weight: 300; }
 
@@ -1381,7 +1382,7 @@ body {
       transform: scale(1.2);
       z-index: 5; }
   .skill__caption {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     font-size: 1.6rem;
@@ -1395,6 +1396,14 @@ body {
       z-index: 5; }
     .skill__caption--not-clicked {
       opacity: 0; }
+  .skill__content {
+    position: absolute;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -1466,7 +1475,8 @@ body {
 
 .project {
   text-align: center;
-  transition: all 1s; }
+  transition: all 1s;
+  position: relative; }
   .project--hide {
     opacity: 0;
     transform: scale(0.01); }
@@ -1483,10 +1493,28 @@ body {
     opacity: 1; }
   .project__content {
     width: 100%; }
+  .project__back {
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0; }
   .project__img {
     width: 75%; }
-  .project__description {
-    font-size: 1.6rem; }
+    .project__img--backdrop {
+      background: rgba(0, 0, 0, 0.75); }
+  .project__list {
+    list-style: none;
+    text-align: left;
+    font-size: 1.6rem;
+    margin-bottom: 1rem; }
+    .project__list--item {
+      text-align: left;
+      font-size: 1.6rem;
+      margin-bottom: 1rem; }
+      .project__list--item:last-child {
+        margin-bottom: 5rem; }
+    .project__list:last-child {
+      margin-bottom: 5rem; }
 
 .hero {
   position: relative;

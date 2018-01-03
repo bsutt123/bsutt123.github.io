@@ -1,6 +1,7 @@
 .project {
     text-align: center;
     transition: all 1s;
+    position: relative;
 
     &--hide {
         opacity: 0;
@@ -30,11 +31,41 @@
         width: 100%;
     }
 
-    &__img {
-        width:75%;
+    &__back {
+        font-size:5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+
     }
 
-    &__description {
+    &__img {
+        width:75%;
+
+        &--backdrop {
+            background: rgba(0,0,0,.75);
+
+        }
+    }
+
+    &__list {
+        list-style: none;
+
+        &--item {
+            text-align: left;
+            font-size: 1.6rem;
+            margin-bottom: $margin-tiny;
+            &:last-child {
+                margin-bottom: $margin-medium;
+            }
+        }
+        text-align: left;
         font-size: 1.6rem;
+        margin-bottom: $margin-tiny;
+        &:last-child {
+            margin-bottom: $margin-medium;
+        }
+
+        
     }
 }

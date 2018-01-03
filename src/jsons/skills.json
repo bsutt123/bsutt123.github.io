@@ -1,11 +1,38 @@
 {
-    "javascript": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "css": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "angular":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "react": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "ruby": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "rails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "sql": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus.",
-    "bootstrap":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis blandit turpis cursus in hac habitasse platea dictumst. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Nulla at volutpat diam ut venenatis tellus."
+    "javascript":{
+        "content": "I feel very comfortable using Javascript to give my websites fluid design. I am well versed in both ES6 syntax as well as older vanilla javascript. You can look at Chatty and this Portfolio to see my most extensive Javasrcripting applications",
+        "level": "High"
+    },
+    "html":{
+        "content": "HTML is the backbone of any webpage, and I have used it extensively in all of the applications I have made. All of my projects use HTML in one way or another to build the base of the webpages.",
+        "level": "High"
+    },
+    "css": {
+        "content": "I do not have as much experience with CSS and website design in general, but I have made great strides to improve my websites CSS. I am now adding simple but elegant animations to my websites using pure CSS.",
+        "level": "Med"
+    },
+    "angular":{
+        "content": "I have built using both Angular and AngularJS, and you can look at Chatty for a sample of my work. I feel confident implementing sites and can quickly learn more if immersed in the framework.",
+        "level": "Med"
+    },
+    "react": {
+        "content": "I just started to learn React, and I love the way that it has broken up the Single Page Applications in to rendered components. This portfolio as well as Chatty was built using React",
+        "level": "Med"
+    },
+    "ruby": {
+        "content": "Ruby is just a great language for the backend frameworks. The built in functionality and thoughtfulness of the language made coding a truly enjoyable experience",
+        "level": "High"
+    },
+    "rails":{
+        "content": "Rails is a fantastic backend framework that really makes storing large amounts of complex data and modeling as painless as possible. You can look at Blocipedia or the ENF website to see examples of my work in Rails.",
+        "level": "High"
+    },
+    "sql":{
+        "content": "Most of my work with backend being in Rails, I don't have a ton of experience with complex SQL statements. I feel very comfortable using SQL like Join tables and Subqueries, but I haven't had the chance to write really complex queries to practice that skill.",
+        "level": "Low"
+    },
+    "bootstrap":{
+        "content": "I have used Bootstrap quickly flesh out websites, but it isn't my favorite tool to use. I adore the Flexbox grid system that it uses, but prefer to make more personalized CSS for styling.",
+        "level": "Low"
+    }
 } 

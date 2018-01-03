@@ -8,7 +8,6 @@ import Hero from  './components/Hero';
 import AboutMe from './components/AboutMe';
 import SkillsList from './components/SkillsList';
 import FixedNav from './components/FixedNav';
-import CaseStudies from './components/CaseStudies';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 
@@ -22,7 +21,6 @@ class App extends Component {
             <Route exact path="/" component={Hero} />
             <Route path="/about-me" component={AboutMe} />
             <Route path="/skills" component={SkillsList} />
-            <Route path="/case-studies" component={CaseStudies} />
             <Route path="/projects" component={Projects} />
             <Route path="/blog" component={Blog} />
           </div>
