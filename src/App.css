@@ -1249,24 +1249,29 @@ body {
   background: #e0e0e0; }
 
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
 
 .heading-primary {
+  font-family: 'Merriweather', sans-serif;
   font-size: 10rem;
   font-weight: 300;
   text-transform: uppercase; }
 
 .heading-secondary {
+  font-family: 'Merriweather', sans-serif;
   font-size: 4rem;
   font-weight: 300;
   text-transform: uppercase; }
 
 .heading-tertiary {
+  font-family: 'Merriweather', sans-serif;
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase; }
 
 .heading-quaternary {
+  font-family: 'Merriweather', sans-serif;
   font-size: 1.6rem;
   font-weight: 300; }
 
@@ -1338,6 +1343,9 @@ body {
 
 .u-position-static {
   position: static !important; }
+
+.u-text-trans-none {
+  text-transform: none !important; }
 
 .story {
   min-height: 20rem; }
@@ -1624,7 +1632,7 @@ body {
     .nav-list ul li:not(:last-child) {
       margin-bottom: 2rem; }
   .nav-list--not-clicked {
-    transform: scale(0.1);
+    transform: scale(0.01);
     opacity: 0;
     left: 0;
     top: 0; }
@@ -1633,6 +1641,28 @@ body {
     opacity: 1;
     left: 50%;
     top: 50vh; }
+
+.nav-outside {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 3rem;
+  transition: all .5s ease-in-out;
+  z-index: 9;
+  transform: translateX(50%);
+  text-align: center; }
+  .nav-outside ul {
+    list-style: none; }
+    .nav-outside ul li {
+      display: inline-block;
+      margin: 0 1rem; }
+  .nav-outside--not-clicked {
+    transform: scale(0.01);
+    opacity: 0; }
+  .nav-outside--clicked {
+    transform: scale(1);
+    opacity: 1; }
 
 .blog__heading--secondary {
   margin: 0 auto;

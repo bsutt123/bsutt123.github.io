@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import FaClose from 'react-icons/lib/fa/close';
 import FaBars from 'react-icons/lib/fa/bars';
-
+import resume from '../assets/bradySuttonResume.pdf';
 
 class FixedNav extends Component {
     constructor(props) {
@@ -50,8 +50,8 @@ class FixedNav extends Component {
                         <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/skills"> Skills </Link></li>
                         <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/projects"> Projects </Link></li>
                         <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/blog"> Blog </Link></li>
+                        <li> <a className="btn btn--white" href={resume} download="Brady_Sutton_Resume"> Download Resume </a></li>
                     </ul>
-                
                 </nav>
             </div>
         )

@@ -17,7 +17,7 @@ class Blog extends Component {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="blog__post">
-                            <h4 className="heading-quaternary">Why I wish no one had told me about Bootstrap</h4>
+                            <h4 className="heading-quaternary u-margin-bot-tiny">Why I wish no one had told me about Bootstrap</h4>
                             <a className="blog__link" href="https://medium.com/@bsutt123/why-i-wish-no-one-had-told-me-about-bootstrap-be9429178568">
                                 <img className="blog__img" src={bootstrap} alt="bootstrap" />
                             </a>

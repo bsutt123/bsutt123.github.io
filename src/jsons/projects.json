@@ -42,8 +42,8 @@
             }
         ],
         "deployed": {
-            "link": "https://bloc-chat-react-c196e.firebaseapp.com",
-            "title": "Deployment of React Version"
+            "link": "https://crust-app.herokuapp.com",
+            "title": "Deployment on Heroku"
         }
     },
     "enfPortal": {
