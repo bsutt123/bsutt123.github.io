@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Skill from './Skill';
 
+import styles from 'Styles/modules/skills-list.module.css'
+
 import skillsData from '../jsons/skills.json';
 
 import javascript from '../img/javascript.svg';
@@ -52,15 +54,15 @@ class SkillsList extends Component {pm
 
     render() {
         return (
-            <div className="container u-padding-top-lg">
-                <div className="row justify-content-center u-margin-bot-sm">
-                    <h2 className="heading-secondary"> Developed Skills  </h2>
+            <div className={styles.container}>
+                <div className={styles.headingBox}>
+                    <h2 className={styles.heading}> Developed Skills  </h2>
                 </div>
-                <div className="row justify-content-center u-margin-bot-md">
-                    <h3 className="heading-tertiary"> Click on a Icon to read more about it </h3>
+                <div className={styles.headingBox}>
+                    <h3 className={styles.headingSecond}> Click on a Icon to read more about it </h3>
                 </div>
                 
-                <div className="row">
+                <div className={styles.skillsList}>
                     {
                         Object.entries(skillsData).map(([key, value],index) => {
                             return (<Skill 

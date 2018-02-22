@@ -1,0 +1,22 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.headingBox {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.headingSecond {
+  font-size: 1.25rem;
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) )
+}

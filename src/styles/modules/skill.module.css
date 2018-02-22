@@ -1,0 +1,48 @@
+:root {
+  --imgSize: 15rem;
+}
+
+.container {
+
+}
+
+.skill {
+  position: relative;
+  height: var(--imgSize);
+  width: var(--imgSize);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.skillImg {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+
+.skillCaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  background-color: rgba(0,0,0,.75);
+  color: white;
+  transition: all 1s;
+  backface-visibility: hidden;
+}
+.skillHeading {
+  font-size: 1.2rem;
+}
+.skillContent {
+  position: absolute;
+  text-align: center;
+  font-weight: 300;
+  padding:1rem;
+  width:100%;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
