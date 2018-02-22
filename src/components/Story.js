@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import styles from 'Styles/modules/story.module.css';
 
 class Story extends Component {
     setFill() {
@@ -10,13 +11,11 @@ class Story extends Component {
     }
     render() {
         return (
-            <div className="row story">
-                <div className="col-lg-4 col-md-5">
-                    <figure className="story__shape">
-                        <img className={"story__img"+this.setFill()} src={this.props.image} alt="Brady Sutton" />
-                    </figure>
-                </div>
-                <div className="col-lg-7 col-md-6">
+            <div className={styles.container}>
+                <figure className="story__shape">
+                    <img className={"story__img"+this.setFill()} src={this.props.image} alt="Brady Sutton" />
+                </figure>
+                <div>
                     <div className="row justify-content-center u-margin-bot-tiny">
                         <h3 className="heading-tertiary"> {this.props.heading} </h3>
                     </div>

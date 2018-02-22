@@ -1,18 +1,13 @@
-$story-image-size: 20rem;
+:root {
+    --storyImageSize: 10rem;
+}
 .story {
-
-    min-height: $story-image-size;
     &:not(:last-child) {
-        margin-bottom: 6rem;
+        margin-bottom: 2rem;
     }
     &__shape{
-        float:left;
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-        width: $story-image-size;
-        height: $story-image-size;
+        width: var(--storyImageSize);
+        height: var(--storyImageSize);
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
@@ -30,7 +25,7 @@ $story-image-size: 20rem;
     }
 
     &__text {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
 
