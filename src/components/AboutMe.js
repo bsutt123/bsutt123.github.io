@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+import styles from 'Styles/modules/about-me.module.css';
 
 import Story from './Story';
 
@@ -30,9 +31,9 @@ class AboutMe extends Component {
     }
     render() {
         return (
-            <div className="about-me container u-margin-top-lg">
-                <div className="row justify-content-center u-margin-bot-lg">
-                    <h2 className="heading-secondary"> Not your average developer </h2>
+            <div className={styles.container}>
+                <div className={styles.headingBox}>
+                    <h2 className={styles.heading}> Not your average developer </h2>
                 </div>
                 <Story height={true} image={hmc} heading={"Harvey Mudd College"} textContent={this.harveyMudd()} />
                 <Story height={true} image={enc} heading={"Ealges Nest Camp"} textContent={this.eaglesNest()} />

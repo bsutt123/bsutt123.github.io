@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import styles from 'Styles/modules/hero.module.css'
+
 
 import engineer from '../img/engineer.jpg';
 import webDev from '../img/dev-typing.jpg';
@@ -6,14 +8,14 @@ import webDev from '../img/dev-typing.jpg';
 class Hero extends Component {
     render() {
         return (
-            <div className="hero container-fluid">
-                <img className="hero__img hero__img--top" src={engineer} alt="engineering" />
-                <img className="hero__img hero__img--bot" src={webDev} alt="computer" />
-                <div className="hero__title">
-                    <h1 className="heading-primary">Brady Sutton</h1>
-                    <h3 className="heading-tertiary">
-                        <span className="hero__fade hero__fade--in"> Former Mechanical engineer</span> ... 
-                        <span className="hero__fade hero__fade--out"> turned software developer </span>
+            <div className={styles.hero}>
+                <img className={styles.heroImgTop} src={engineer} alt="engineering" />
+                <img className={`${styles.heroImg}`} src={webDev} alt="computer" />
+                <div className={styles.heroTitle}>
+                    <h1 className={styles.headingPrimary} >Brady Sutton</h1>
+                    <h3 className={styles.headingSecondary} >
+                        <span className={styles.fadeIn}> Former Mechanical engineer</span> ... 
+                        <span className={styles.fadeOut}> turned software developer </span>
                     </h3>
                 </div>
             </div>

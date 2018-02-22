@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+import styles from 'Styles/modules/fixed-nav.module.css';
+
 import FaClose from 'react-icons/lib/fa/close';
 import FaBars from 'react-icons/lib/fa/bars';
 import resume from '../assets/bradySuttonResume.pdf';
@@ -12,12 +14,45 @@ class FixedNav extends Component {
             clicked: false
         }
     }
-
-    addClicked() {
+    frontCardTransform() {
         if (this.state.clicked) {
-            return "clicked";
+            return {
+                transform: "rotateY(-180deg)"
+            }
+        } else {return {}}
+    }
+
+    backCardTransform() {
+        if (this.state.clicked) {
+            return {
+                transform: "rotateY(-360deg)"
+            }
         } else {
-            return "not-clicked";
+            return {
+                transform: "rotateY(-180deg)"
+            }
+        }
+    }
+
+    backgroundStyles() {
+        return (this.state.clicked) ? {transform: "scale(100)"} : {}
+    }
+    
+    listStyles() {
+        if (this.state.clicked) {
+            return {
+                transform: "translate(-50%,-50%) scale(1)",
+                opacity: "1",
+                left: "50%",
+                top: "50vh"
+            }
+        } else {
+            return {
+                transform: "scale(.01)",
+                opacity: "0",
+                left:"0",
+                top:"0"
+            }
         }
     }
 
@@ -26,24 +61,23 @@ class FixedNav extends Component {
     }
     render() {
         return (
-            <div className="nav-box">
-                <div className="fixed-nav">
+            <div className={styles.container} >
+                <div className={styles.fixedNav} >
                     <div 
                     onClick={this.handleClick.bind(this)} 
-                    className={"fixed-nav__side fixed-nav__side--front--"+this.addClicked()}> 
-                        <FaBars className="fixed-nav__icon"/>
+                    style={this.frontCardTransform()}
+                    className={styles.fixedNavSide} > 
+                        <FaBars className={styles.icon}/>
                     </div>
                     <div 
-                    onClick={this.handleClick.bind(this)} 
-                    className={"fixed-nav__side fixed-nav__side--back--"+this.addClicked()}> 
-                        <FaClose className="fixed-nav__icon"/> 
+                    onClick={this.handleClick.bind(this)}
+                    style={this.backCardTransform()} 
+                    className={styles.fixedNavSide} > 
+                        <FaClose className={styles.icon}/> 
                     </div>
-                    <div 
-                    className={"fixed-nav__background fixed-nav__background--"+this.addClicked()}>
-
-                    </div>
+                    <div className={styles.background} style={this.backgroundStyles()}> </div>
                 </div>
-                <nav className={"nav-list nav-list--"+this.addClicked()}>
+                <nav className={styles.navList} style={this.listStyles()}>
                     <ul>
                         <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/"> Main Page </Link></li>
                         <li onClick={this.handleClick.bind(this)} ><Link className="btn btn--white" to="/about-me"> About Me</Link></li>

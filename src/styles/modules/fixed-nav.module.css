@@ -1,0 +1,66 @@
+@import 'colors.css';
+
+:root {
+  --navSize: 3rem;
+}
+
+.container {
+  position: relative;
+}
+
+.fixedNav {
+  position: relative;
+}
+
+.fixedNavSide {
+  position: fixed;
+  top: calc(var(--navSize)/2);
+  right: calc(var(--navSize)/2);
+  height: var(--navSize);
+  width: var(--navSize);
+  border-radius: 50%;
+  backface-visibility: hidden;
+  z-index: 10;
+  background: white;
+  transition:all .5s ease-in-out;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 .75rem 1.25rem rgba(black, .15);
+}
+
+.icon {
+  font-size: calc(var(--navSize)/2);
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.background {
+  position: fixed;
+  top: calc(var(--navSize) / 2 + .5rem);
+  right: calc(var(--navSize) / 2 + .5rem);
+  height: calc(var(--navSize) - 1rem);
+  width: calc(var(--navSize) - 1rem);
+  border-radius: 50%;
+  background-image: radial-gradient(var(--colorPrimaryLight), var(--colorPrimaryDark));
+  z-index: 8;
+  transition: all .5s ease-in-out;
+}
+
+.navList {
+  position: fixed;
+  transform: translate(-50%,-50%);
+  transition: all .5s ease-in-out;
+  z-index: 9;
+
+  & ul {
+    list-style: none;
+    text-align: center;
+    font-size: responsive;
+
+    & li:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+  }
+}
