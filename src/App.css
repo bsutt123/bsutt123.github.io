@@ -1331,49 +1331,6 @@ $color-primary-dark: #008ba3;
 .story__text {
   font-size: 1rem; }
 
-.skills__title {
-  font-size: 6rem;
-  font-weight: 300; }
-
-.skill {
-  position: relative;
-  height: 25rem;
-  width: 25rem;
-  margin: 0 auto;
-  margin-bottom: 3rem; }
-  .skill__img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    transition: all 1s;
-    backface-visibility: hidden; }
-    .skill__img--clicked {
-      transform: scale(1.2);
-      z-index: 5; }
-  .skill__caption {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    font-size: 1.6rem;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #F0F0F0;
-    transition: all 1s;
-    backface-visibility: hidden; }
-    .skill__caption--clicked {
-      opacity: 1;
-      transform: scale(1.2);
-      z-index: 5; }
-    .skill__caption--not-clicked {
-      opacity: 0; }
-  .skill__content {
-    position: absolute;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -1490,14 +1447,6 @@ $color-primary-dark: #008ba3;
       margin-bottom: 1rem; }
       .project__github--item:last-child {
         margin-bottom: 5rem; }
-
-.about-me {
-  width: 100%;
-  padding: 0 2rem; }
-
-.skewer {
-  width: 100vw;
-  background-image: linear-gradient(to right, #757de8, #002984); }
 
 .blog__heading--secondary {
   margin: 0 auto;

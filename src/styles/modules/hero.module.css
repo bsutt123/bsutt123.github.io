@@ -5,7 +5,6 @@
 }
   
 .heroImgTop {
-  filter: blur(2px) brightness(60%);
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -21,7 +20,6 @@
   }
 
 .heroImg {
-  filter: blur(2px) brightness(60%);
   position: absolute;
   width: 100vw;
   height: 100vh;

@@ -7,9 +7,9 @@ import bootstrap from '../img/bootstrap.svg';
 class Blog extends Component {
     render() {
         return (
-            <div className="container blog u-margin-top-lg">
+            <div className="container blog u-margin-top-sm">
                 <div className="row blog__heading--primary justify-content-center u-margin-bot-sm">
-                    <h2 className="heading-secondary"> Blog Posts </h2>
+                    <h1 className="heading-secondary"> Blog Posts </h1>
                 </div>
                 <div className="row blog__heading--secondary justify-content-center u-margin-bot-md">
                     <h3 className="heading-tertiary"> I post on Medium, but you can click any of the pictures below to read the full article </h3>

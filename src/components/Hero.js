@@ -3,7 +3,7 @@ import styles from 'Styles/modules/hero.module.css'
 
 
 import engineer from '../img/engineer.jpg';
-import webDev from '../img/dev-typing.jpg';
+import webDev from '../img/dev-typing.png';
 
 class Hero extends Component {
     render() {

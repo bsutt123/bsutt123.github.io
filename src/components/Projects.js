@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 
 import Project from './Project';
 import FeaturedProject from './FeaturedProject';
+import styles from 'Styles/modules/projects.module.css'
 
 import projectsData from '../jsons/projects.json';
 
-import chatty from '../img/table.jpg';
-import blocipedia from '../img/table2.jpg';
-import enfPortal from '../img/table3.jpg';
-import blocmetrics from '../img/table4.jpg';
+import chatty from '../img/chatty.png';
+import blocipedia from '../img/crust.png';
+import enfPortal from '../img/enf-portal.png';
 
 class Projects extends Component {
     constructor(props) {
@@ -24,7 +24,6 @@ class Projects extends Component {
         switch (text) {
             case "chatty": return chatty;
             case "blocipedia": return blocipedia;
-            case "blocmetrics": return blocmetrics;
             case "enfPortal": return enfPortal;
             default: return null;
         }
@@ -63,12 +62,12 @@ class Projects extends Component {
     }
     render() {
         return (
-            <div className="container u-margin-top-lg">
+            <div className="container u-margin-top-md">
                 <div className="row justify-content-center u-margin-bot-sm"> 
-                    <h2 className="heading-secondary"> Completed Projects </h2>
+                    <h1 className={styles.headingPrimary}> Completed Projects </h1>
                 </div>
-                <div className="row justify-content-center u-margin-bot-lg">
-                    <h3 className="heading-tertiary"> Click  on a project to learn more </h3>
+                <div className="row justify-content-center u-margin-bot-md">
+                    <h3 className={styles.headingSecondary}> Click  on a project to learn more </h3>
                 </div>
                 <div className="row u-position-relative">
                     <div 

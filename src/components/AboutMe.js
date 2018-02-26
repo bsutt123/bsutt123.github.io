@@ -37,7 +37,7 @@ class AboutMe extends Component {
                 </div>
                 <div className={styles.storyGrid}>
                     <Story height={true} image={hmc} heading={"Harvey Mudd College"} textContent={this.harveyMudd()} />
-                    <Story height={true} image={enc} heading={"Ealges Nest Camp"} textContent={this.eaglesNest()} />
+                    <Story height={true} image={enc} heading={"Eagles Nest Camp"} textContent={this.eaglesNest()} />
                     <Story height={true} image={spacex} heading={"SpaceX"} textContent={this.spaceX()} />
                     <Story height={true} image={chipotle} heading={"Chipotle"} textContent={this.chipotle()} />
                 </div>

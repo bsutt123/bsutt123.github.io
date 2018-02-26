@@ -1,5 +1,10 @@
 'use strict';
 
+const cssnext = require('postcss-cssnext');
+const cssImport = require('postcss-import');
+const createResolver = require('postcss-import-webpack-resolver');
+const rucksack = require('rucksack-css');
+
 const autoprefixer = require('autoprefixer');
 const path = require('path');
 const webpack = require('webpack');
@@ -55,10 +60,14 @@ const postCSSLoaderOptions = {
   // https://github.com/facebook/create-react-app/issues/2677
   ident: 'postcss',
   plugins: () => [
-    require('postcss-flexbugs-fixes'),
-    autoprefixer({
-      flexbox: 'no-2009',
+    cssImport({
+      resolve: createResolver({
+        modules: ['src/styles', 'src', 'node_modules']
+      })
     }),
+    rucksack,
+    require('postcss-flexbugs-fixes'),
+    cssnext
   ],
 };
 
@@ -110,6 +119,7 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+      Styles: path.resolve(__dirname, '../src/styles')
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
