@@ -1,5 +1,5 @@
 :root {
-  --imgSize: 200px;
+  --imgSize: 15rem;
 }
 
 .container {
@@ -27,7 +27,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: 1rem;
+  font-size: .9rem;
   background-color: rgba(0,0,0,.75);
   color: white;
   transition: all 1s;
