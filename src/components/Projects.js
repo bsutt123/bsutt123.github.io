@@ -62,7 +62,7 @@ class Projects extends Component {
     }
     render() {
         return (
-            <div className="container u-margin-top-md">
+            <div className="container u-margin-top-sm">
                 <div className="row justify-content-center u-margin-bot-sm"> 
                     <h1 className={styles.headingPrimary}> Completed Projects </h1>
                 </div>
