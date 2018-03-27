@@ -12,7 +12,6 @@ const AsyncProjects =  asyncComponent(() => import('./components/Projects'));
 const AsyncBlog = asyncComponent(() => import('./components/Blog'))
 
 
-
 class App extends Component {
   render() {
     return (

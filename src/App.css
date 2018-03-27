@@ -1402,7 +1402,8 @@ $color-primary-dark: #008ba3;
 .project {
   text-align: center;
   transition: all 1s;
-  position: relative; }
+  position: relative;
+  padding: 1rem; }
   .project--hide {
     opacity: 0;
     transform: scale(0.01); }
@@ -1420,7 +1421,7 @@ $color-primary-dark: #008ba3;
   .project__content {
     width: 100%; }
   .project__back {
-    font-size: 5rem;
+    font-size: 2rem;
     position: absolute;
     top: 0;
     left: 0; }
