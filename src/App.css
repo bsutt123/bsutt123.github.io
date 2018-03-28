@@ -1433,7 +1433,7 @@ $color-primary-dark: #008ba3;
     list-style: none; }
     .project__list--item {
       text-align: left;
-      font-size: 1.6rem;
+      font-size: 1rem;
       margin-bottom: 1rem; }
       .project__list--item:last-child {
         margin-bottom: 5rem; }
