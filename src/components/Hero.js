@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import styles from 'Styles/modules/hero.module.css'
 
 
-import engineer from '../img/engineer.jpg';
-import webDev from '../img/dev-typing.png';
+import engineer from '../img/mech_engineer.jpg';
+import webDev from '../img/dev-typing.jpg';
 
 class Hero extends Component {
     render() {
