@@ -10,6 +10,7 @@ import chatty from "../img/chatty.png";
 import blocipedia from "../img/crust.png";
 import enfPortal from "../img/enf-portal.png";
 import discoveryApp from "../img/discovr_app.png";
+import vueChat from '../img/vue_chat.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -31,6 +32,8 @@ class Projects extends Component {
         return enfPortal;
       case "discoveryApp":
         return discoveryApp
+      case "vueChat": 
+        return vueChat
       default:
         return null;
     }
