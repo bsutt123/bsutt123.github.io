@@ -1,71 +1,92 @@
 {
-    "chatty": {
-        "description": [
-            "Chatty is a simple chatting service that was used as the basis to build a Single Page Application using Angular, Angular JS, and React. While each version is slighty different, they all have the same essential functionality including sign ins, creating rooms, making posts. etc."
-        ],
-        "motivation": [
-            "Chat services are a great first application to build because they require a more dynamic control of the information that a static web page. The application needs to be able to read information from a database (in this case, firebase was used), let users log in, dynamically update rooms names, and overall track the state of the application.",
-            "For this application, my real goal was to get first hand experience with how the largest frameworks are unique using an application that has similar end implementation. It was very helpful to get to see the strengths and weaknesses of each framework, and the chance to use each to build an application was exciting in itself. Using the three different frameworks as a learning experience was my main goal when implementing chatty."
-        ],
-        "heading": "Chatty",
-        "github": [
-            {
-                "link":"https://github.com/bsutt123/chatty-react",
-                "title": "Chatty React"
-            },
-            {
-                "link":"https://github.com/bsutt123/chatty-angular",
-                "title": "Chatty Angular"
-            },
-            {
-                "link":"https://github.com/bsutt123/chatty-angular-js",
-                "title": "Chatty Angular JS"
-            }
-        ],
-        "deployed": {
-            "link": "https://bloc-chat-react-c196e.firebaseapp.com",
-            "title": "Deployment of React Version"
-        }
-    },
-    "blocipedia": {
-        "description": [
-            "Crust is a Wikipedia inspired app developed for people who love bread and want to share their knowledge with others. Its built using Ruby on Rails to maintain and store information, and uses a number of Ruby Gems to assist with the management of the application. The Application uses Devise to manage users, Stripe to accept payments, and RedCarpet to render the markdown to the wikipedia page. "
-        ],
-        "motivation": [
-            "Crust was my first real Ruby on Rails application, and I wanted to do something that would help solidify more of the data management and modeling with Rails is so well known for. I had the chance to get my feet wet with some of the most used Ruby gems like Devise and Stripe; I also had the chance to make some simpler database joins like has_many :through and belongs_to."
-        ],
-        "heading": "Crust",
-        "github": [
-            {
-                "link":"https://github.com/bsutt123/crust-app",
-                "title": "Crust on Github"
-            }
-        ],
-        "deployed": {
-            "link": "https://crust-app.herokuapp.com",
-            "title": "Deployment on Heroku"
-        }
-    },
-    "enfPortal": {
-        "description": [
-            "ENF Portal is a Ruby on Rails Web Application built to help with the management of classes, campers, staff and trips at the summer camp Eagles Nest Camp. It was designed to be used by the Administrators and the Counselors at the camp to let them use a web interface to perform much of the scheduling that is current done by hand.",
-            "If you are on the deployed version and want to move around the site login with 'bsutt123@gmail.com' and 'password' to have admin access. The site was designed so that only specific people would be able to sign up to limit the users to only Counselors and Administrators"
-        ],
-        "motivation": [
-            "I worked at Eagles Nest Camp for many summers, and as the Canoeing Instructor Head I was in charge of planning and leading all canoeing trips for the summer. The camp used an old carbon copy system for class management and trip requests that worked well, but required substantial labor hours to make sure that everything was in order and the trips were going to be successful",
-            "I was hoping to make something that would let fewer people manage the camp more effectively by centralizing the information and analyzing the data on the fly to provide suggestions and to highlight possible issues that would arise from trip complications. There are hundreds of little details that go into planning a trip off campus, such as will there be enough counselors in the cabin, who is on their day off, is the camper allergic to anything, etc...",
-            "This is my largest project, and in order to properly model the camps activities I had to make many intricately connected models to track and store information. The project also includes many complex forms to go with the nineteen different models, and the controllers for each model helps guide the form by eliminating results that do not fit the criteria for the form. There a lot of really cool interactions that you can explore on github."
-        ],
-        "heading": "ENF Portal",
-        "github": [
-            {
-                "link":"https://github.com/bsutt123/enf-portal",
-                "title": "ENF Portal on Github"
-            }
-        ],
-        "deployed": {
-            "link": "https://radiant-plateau-85733.herokuapp.com",
-            "title": "Deployment on Heroku"
-        }
+  "chatty": {
+    "description": [
+      "Chatty is a simple chatting service that was used as the basis to build a Single Page Application using Angular, Angular JS, and React. While each version is slighty different, they all have the same essential functionality including sign ins, creating rooms, making posts. etc."
+    ],
+    "motivation": [
+      "Chat services are a great first application to build because they require a more dynamic control of the information that a static web page. The application needs to be able to read information from a database (in this case, firebase was used), let users log in, dynamically update rooms names, and overall track the state of the application.",
+      "For this application, my real goal was to get first hand experience with how the largest frameworks are unique using an application that has similar end implementation. It was very helpful to get to see the strengths and weaknesses of each framework, and the chance to use each to build an application was exciting in itself. Using the three different frameworks as a learning experience was my main goal when implementing chatty."
+    ],
+    "heading": "Chatty",
+    "github": [
+      {
+        "link": "https://github.com/bsutt123/chatty-react",
+        "title": "Chatty React"
+      },
+      {
+        "link": "https://github.com/bsutt123/chatty-angular",
+        "title": "Chatty Angular"
+      },
+      {
+        "link": "https://github.com/bsutt123/chatty-angular-js",
+        "title": "Chatty Angular JS"
+      }
+    ],
+    "deployed": {
+      "link": "https://bloc-chat-react-c196e.firebaseapp.com",
+      "title": "Deployment of React Version"
     }
+  },
+  "blocipedia": {
+    "description": [
+      "Crust is a Wikipedia inspired app developed for people who love bread and want to share their knowledge with others. Its built using Ruby on Rails to maintain and store information, and uses a number of Ruby Gems to assist with the management of the application. The Application uses Devise to manage users, Stripe to accept payments, and RedCarpet to render the markdown to the wikipedia page. "
+    ],
+    "motivation": [
+      "Crust was my first real Ruby on Rails application, and I wanted to do something that would help solidify more of the data management and modeling with Rails is so well known for. I had the chance to get my feet wet with some of the most used Ruby gems like Devise and Stripe; I also had the chance to make some simpler database joins like has_many :through and belongs_to."
+    ],
+    "heading": "Crust",
+    "github": [
+      {
+        "link": "https://github.com/bsutt123/crust-app",
+        "title": "Crust on Github"
+      }
+    ],
+    "deployed": {
+      "link": "https://crust-app.herokuapp.com",
+      "title": "Deployment on Heroku"
+    }
+  },
+  "enfPortal": {
+    "description": [
+      "ENF Portal is a Ruby on Rails Web Application built to help with the management of classes, campers, staff and trips at the summer camp Eagles Nest Camp. It was designed to be used by the Administrators and the Counselors at the camp to let them use a web interface to perform much of the scheduling that is current done by hand.",
+      "If you are on the deployed version and want to move around the site login with 'bsutt123@gmail.com' and 'password' to have admin access. The site was designed so that only specific people would be able to sign up to limit the users to only Counselors and Administrators"
+    ],
+    "motivation": [
+      "I worked at Eagles Nest Camp for many summers, and as the Canoeing Instructor Head I was in charge of planning and leading all canoeing trips for the summer. The camp used an old carbon copy system for class management and trip requests that worked well, but required substantial labor hours to make sure that everything was in order and the trips were going to be successful",
+      "I was hoping to make something that would let fewer people manage the camp more effectively by centralizing the information and analyzing the data on the fly to provide suggestions and to highlight possible issues that would arise from trip complications. There are hundreds of little details that go into planning a trip off campus, such as will there be enough counselors in the cabin, who is on their day off, is the camper allergic to anything, etc...",
+      "This is my largest project, and in order to properly model the camps activities I had to make many intricately connected models to track and store information. The project also includes many complex forms to go with the nineteen different models, and the controllers for each model helps guide the form by eliminating results that do not fit the criteria for the form. There a lot of really cool interactions that you can explore on github."
+    ],
+    "heading": "ENF Portal",
+    "github": [
+      {
+        "link": "https://github.com/bsutt123/enf-portal",
+        "title": "ENF Portal on Github"
+      }
+    ],
+    "deployed": {
+      "link": "https://radiant-plateau-85733.herokuapp.com",
+      "title": "Deployment on Heroku"
+    }
+  },
+  "discoveryApp": {
+    "description": [
+      "Discovery is a full stack Application built using React as a frontend framework and a Ruby on Rails API as a backend server. It leverages all the best parts about the React Ecosystem and the Ruby on Rails gems to provide one seemless integration of front and back end. The backend of the application makes requests to The Movie Database API, which serves up the assets to React through the same URL, avoiding any CORS requests and keeping each part of the system lean."
+    ],
+    "motivation": [
+      "In the current world of web development, more and more power is being loaded into front end frameworks that leverage client side javascript to make websites extremely responsive. However, a backend thats easy to test and manipulate that uses SQL to store a database with different connections is also a standard in any web application. I wanted to get a chance to use both technologies together but separately, highlighting the best parts of both. Creating our frontend using React and Webpack includes some amazing built in features like dynamic imports, and creating the backend with Ruby on Rails means that the application will have access to all the amazing features Rails includes as part of its standard library. While it is possible to do something similar with something like the webpacker gem, it just isn't the same as creating completely separate concerns for our front and back end.",
+      "This project was also the perfect opportunity for me to get a chance to really dive into using Redux to manage the complex state of an application. Redux and other Flux like state management systems have become a staple of web applications, and I wanted a chance to get my feet wet using Redux. It was also great to see some of the more complex redux applications, like using middleware in order to maintain purity of actions while also perform asyncronous operations",
+      "Lastly, I wanted to use Rails because even though the back end doesn't currently do a lot of heavy lifting, using Rails makes future development of the application more plausible. For example, the app could start to use memoization to store the most important information on the database each day and then serve that out to customers, making the whole application faster and reducing the number of outside api calls substantially. If the Frontend called The Movie Database API directly, then it wouldn't be possible to extend the application in this fashion."
+    ],
+    "heading": "Discovr",
+    "github": [
+      {
+        "link": "https://github.com/bsutt123/discovery_app",
+        "title": "Discovr on Github"
+      }
+    ],
+    "deployed": {
+      "link": "https://glacial-beyond-97276.herokuapp.com/",
+      "title": "Heroku Deployment"
+    }
+  }
 }
