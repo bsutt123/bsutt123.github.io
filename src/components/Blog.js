@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import styles from 'Styles/modules/blog.module.css'
 import bootstrap from "../img/bootstrap.svg";
 import enzaTeam from '../img/enza_team.jpg';
-
+import wsl from '../img/wsl.jpg'
 class Blog extends Component {
   render() {
     return (
@@ -36,8 +36,20 @@ class Blog extends Component {
             </h4>
             <a
               className="blog__link"
+              href="https://medium.com/@bsutt123/hacking-with-high-schoolers-21ffd1d6ec01"
             >
-              <img className="blog__img" src={enzaTeam} alt="bootstrap" />
+              <img className="blog__img" src={enzaTeam} alt="photo of high schoolers from enza academy" />
+            </a>
+          </div>
+          <div className="blog__post">
+            <h4 className="u-margin-bot-tiny">
+              How to get Windows Subsystem for Linux Set Up Just Right
+            </h4>
+            <a
+              className="blog__link"
+              href="https://medium.com/@bsutt123/how-to-setup-the-windows-subsystem-for-linux-juuuuuuust-right-fe83cb31be93"
+            >
+              <img className="blog__img" src={wsl} alt="Juuust right meme with ubuntu and windows" />
             </a>
           </div>
         </div>
