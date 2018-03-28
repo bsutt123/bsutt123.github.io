@@ -1,4 +1,46 @@
 {
+  "discoveryApp": {
+    "description": [
+      "Discovery is a full stack Application built using React as a frontend framework and a Ruby on Rails API as a backend server. It leverages all the best parts about the React Ecosystem and the Ruby on Rails gems to provide one seemless integration of front and back end. The backend of the application makes requests to The Movie Database API, which serves up the assets to React through the same URL, avoiding any CORS requests and keeping each part of the system lean."
+    ],
+    "motivation": [
+      "In the current world of web development, more and more power is being loaded into front end frameworks that leverage client side javascript to make websites extremely responsive. However, a backend thats easy to test and manipulate that uses SQL to store a database with different connections is also a standard in any web application. I wanted to get a chance to use both technologies together but separately, highlighting the best parts of both. Creating our frontend using React and Webpack includes some amazing built in features like dynamic imports, and creating the backend with Ruby on Rails means that the application will have access to all the amazing features Rails includes as part of its standard library. While it is possible to do something similar with something like the webpacker gem, it just isn't the same as creating completely separate concerns for our front and back end.",
+      "This project was also the perfect opportunity for me to get a chance to really dive into using Redux to manage the complex state of an application. Redux and other Flux like state management systems have become a staple of web applications, and I wanted a chance to get my feet wet using Redux. It was also great to see some of the more complex redux applications, like using middleware in order to maintain purity of actions while also perform asyncronous operations",
+      "Lastly, I wanted to use Rails because even though the back end doesn't currently do a lot of heavy lifting, using Rails makes future development of the application more plausible. For example, the app could start to use memoization to store the most important information on the database each day and then serve that out to customers, making the whole application faster and reducing the number of outside api calls substantially. If the Frontend called The Movie Database API directly, then it wouldn't be possible to extend the application in this fashion."
+    ],
+    "heading": "Discovr",
+    "github": [
+      {
+        "link": "https://github.com/bsutt123/discovery_app",
+        "title": "Discovr on Github"
+      }
+    ],
+    "deployed": {
+      "link": "https://glacial-beyond-97276.herokuapp.com/",
+      "title": "Heroku Deployment"
+    }
+  },
+  "vueChat":{
+    "description": [
+      "Vue Chat is like the other chat applications I made (which can be found under the Chatty project description), but I felt like it was important to highlight because of one key difference. I did create Vue-chat with the intention or learning more about the Vue framework and how it can be used to implement Single Page Applications, but I also used a Rails backend rather than a Firebase Backend as a Service to store the messages.",
+      "Using Rails instead of Firebase really let me be in control of the whole application, and gave me another chance to practice with a Rails API. Unlike Dicovr, Vue-chat creates models and controllers for Rooms and Messages, and uses serializers and jsons to send information back to the Vue front end."
+    ],
+    "motivation": [
+      "Vue is becoming more and more popular as a library in web development, and I think that it has some really cool use cases in replacing old jquery code with Vue Instances that have more functionality with a smaller footprint. I wanted a chance to use Vue first hand, and it has been a really interesting exercise to see all the different ways that you can implement a chat service using Vue, React, and Angular, and the different advantages that each one brings. Getting a chance to see all the amazing features built right into Vue was awesome. Flux architecture with Vuex, postcss built into the style config, and a router all integrated with the kit was a fantastic experience.",
+      "On the Rails side of things, I got a practice using serializers to take data and convert them to a more manage json format for consumption by an application. Getting a chance to develop and test a json api is a little different than a traditional Rails applications where the view is rendered by Rails, and you simply interact with the database directly. Learning to separate the concerns of the front and back end to decrease the overall coupling of the system was a new experience, and got me thinking about developer best practices."
+    ],
+    "heading": "Vue Chat",
+    "github": [
+      {
+        "link": "https://github.com/bsutt123/vue-chat",
+        "title": "Vue Chat on Github"
+      }
+    ],
+    "deployed": {
+      "link": "https://vue-chat-brady-sutton.herokuapp.com/",
+      "title": "Vue Chat on Heroku"
+    }
+  },
   "chatty": {
     "description": [
       "Chatty is a simple chatting service that was used as the basis to build a Single Page Application using Angular, Angular JS, and React. While each version is slighty different, they all have the same essential functionality including sign ins, creating rooms, making posts. etc."
@@ -66,27 +108,6 @@
     "deployed": {
       "link": "https://radiant-plateau-85733.herokuapp.com",
       "title": "Deployment on Heroku"
-    }
-  },
-  "discoveryApp": {
-    "description": [
-      "Discovery is a full stack Application built using React as a frontend framework and a Ruby on Rails API as a backend server. It leverages all the best parts about the React Ecosystem and the Ruby on Rails gems to provide one seemless integration of front and back end. The backend of the application makes requests to The Movie Database API, which serves up the assets to React through the same URL, avoiding any CORS requests and keeping each part of the system lean."
-    ],
-    "motivation": [
-      "In the current world of web development, more and more power is being loaded into front end frameworks that leverage client side javascript to make websites extremely responsive. However, a backend thats easy to test and manipulate that uses SQL to store a database with different connections is also a standard in any web application. I wanted to get a chance to use both technologies together but separately, highlighting the best parts of both. Creating our frontend using React and Webpack includes some amazing built in features like dynamic imports, and creating the backend with Ruby on Rails means that the application will have access to all the amazing features Rails includes as part of its standard library. While it is possible to do something similar with something like the webpacker gem, it just isn't the same as creating completely separate concerns for our front and back end.",
-      "This project was also the perfect opportunity for me to get a chance to really dive into using Redux to manage the complex state of an application. Redux and other Flux like state management systems have become a staple of web applications, and I wanted a chance to get my feet wet using Redux. It was also great to see some of the more complex redux applications, like using middleware in order to maintain purity of actions while also perform asyncronous operations",
-      "Lastly, I wanted to use Rails because even though the back end doesn't currently do a lot of heavy lifting, using Rails makes future development of the application more plausible. For example, the app could start to use memoization to store the most important information on the database each day and then serve that out to customers, making the whole application faster and reducing the number of outside api calls substantially. If the Frontend called The Movie Database API directly, then it wouldn't be possible to extend the application in this fashion."
-    ],
-    "heading": "Discovr",
-    "github": [
-      {
-        "link": "https://github.com/bsutt123/discovery_app",
-        "title": "Discovr on Github"
-      }
-    ],
-    "deployed": {
-      "link": "https://glacial-beyond-97276.herokuapp.com/",
-      "title": "Heroku Deployment"
     }
   }
 }
