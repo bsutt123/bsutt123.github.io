@@ -106,7 +106,7 @@
       }
     ],
     "deployed": {
-      "link": "https://radiant-plateau-85733.herokuapp.com",
+      "link": "https://enf-portal-app.herokuapp.com",
       "title": "Deployment on Heroku"
     }
   }
